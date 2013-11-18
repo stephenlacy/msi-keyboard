@@ -1,6 +1,6 @@
 {
    "name":"msi-keyboard",
-   "description":"DESCRIPTIONHERE",
+   "description":"MSI Keyboard LED Controller",
    "version":"0.0.1",
    "homepage":"http://github.com/wearefractal/msi-keyboard",
    "repository":"git://github.com/wearefractal/msi-keyboard.git",
