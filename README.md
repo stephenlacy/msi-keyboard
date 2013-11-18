@@ -32,7 +32,7 @@ var keyboard = require('msi-keyboard');
 
 // Set left region to high intensity, color red
 keyboard.color('left', {
-	color: 'red',
+    color: 'red',
 	intensity: 'high'
 });
 
@@ -78,8 +78,114 @@ setTimeout(keyboard.stopBlink, 5000);
 
 
 ## Colors
-Colors are set
+`keyboard.colors(String region, String Color);`
 
+Colors must be set before using keyboard.blink();
+
+They will not affect hardware-default modes such as Wave and Breathing.
+
+The following colors are defined:
+
+	off
+	red
+	orange
+	yellow
+	green
+	sky
+	blue
+	purple
+	white
+
+To set a color use keyboard.colors() There are two ways to set the color to a region:
+```javascript
+keyboard.color('middle', 'green');
+keyboard.color('middle', {color:'green', intensity:'high'});
+```
+
+
+## Intensity
+`keyboard.colors(String region, {String color, String intensity});`
+
+The color intensity to white can be set via keyboard.colors();
+
+The following intensities are used:
+
+    light
+    low
+    med
+    high
+    
+To set it:
+
+```javascript
+keyboard.color('right', {
+    color: 'blue',
+	intensity: 'med',  // light, low, med, high
+});
+```
+
+##Modes
+`keyboard.mode(String mode);`
+
+MSI Steelseries keyboards have built in modes, with pre-defined colors.
+
+The colors can not be altered via keyboard.colors();
+
+The modes defined by the hardware are:
+
+    Normal
+    Gaming
+    Breathe
+    Demo
+    Wave
+
+
+Usage:
+
+```javascript
+
+keyboard.mode('wave');
+
+```
+
+
+##Regions
+`keyboard.colors(String region, String color);`
+
+There are three regions on the Steelseries keyboard:
+
+    Left
+    Middle
+    Right
+
+Each can have a color and intensity set.
+
+
+
+##Blink
+`keyboard.blink(Time milliseconds);`
+
+The time is the speed in which the keyboard is to blink.
+
+keyboard.colors(); Must be set before using keyboard.blink();
+
+Usage:
+
+```javascript
+// keyboard.color(...);
+
+
+keyboard.blink(750);
+```
+
+To blink one, or two regions only:
+
+```javascript
+// keyboard.color(...);
+
+
+keyboard.blink(['left','right'], 750);
+```
 
 
 
