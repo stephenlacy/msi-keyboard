@@ -22,6 +22,8 @@
 </tr>
 </table>
 
+![keyboard](https://i.cloudup.com/V7zz0ZdHT8.png)
+
 ## Usage
 
 ```javascript
