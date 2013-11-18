@@ -1,3 +1,8 @@
+# MSI Keyboard LED Controller
+OS independant* LED Controller for MSI Steelseries laptop keyboards Using Node.js
+
+
+
 [![Build Status](https://travis-ci.org/wearefractal/msi-keyboard.png?branch=master)](https://travis-ci.org/wearefractal/msi-keyboard)
 
 [![NPM version](https://badge.fury.io/js/msi-keyboard.png)](http://badge.fury.io/js/msi-keyboard)
@@ -25,6 +30,13 @@
 ![keyboard](https://i.cloudup.com/V7zz0ZdHT8.png)
 
 ## Usage
+
+###Note: 
+Linux and *nix systems may require sudo to access the hid device interface.
+
+*Not tested on all platforms.
+Platform tests appreciated
+
 
 ```javascript
 // require the LED module
@@ -197,7 +209,7 @@ You can view more examples in the [example folder.](https://github.com/wearefrac
 
 (MIT License)
 
-Copyright (c) 2013 Steve Lacy |  Fractal <contact@wearefractal.com>
+Copyright (c) 2013 | Steve Lacy slacy.me | Fractal wearefractal.com <contact@wearefractal.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
