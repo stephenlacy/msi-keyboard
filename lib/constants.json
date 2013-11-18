@@ -1,0 +1,31 @@
+{
+	"regions": {
+		"left": 1,
+		"middle": 2,
+		"right": 3
+	},
+	"colors": {
+		"off": 0,
+		"red": 1,
+		"orange": 2,
+		"yellow": 3,
+		"green": 4,
+		"sky": 5,
+		"blue": 6,
+		"purple": 7,
+		"white": 8
+	},
+	"levels": {
+		"light": 3,
+		"low": 2,
+		"med": 1,
+		"high": 0
+	},
+	"modes": {
+		"normal": 1,
+		"gaming": 2,
+		"breathe": 3,
+		"demo": 4,
+		"wave": 5
+	}
+}
