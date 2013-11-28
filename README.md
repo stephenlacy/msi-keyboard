@@ -1,9 +1,6 @@
 # MSI Keyboard LED Controller
-OS independant* LED Controller for MSI Steelseries laptop keyboards Using Node.js
 
-
-
-[![Build Status](https://travis-ci.org/wearefractal/msi-keyboard.png?branch=master)](https://travis-ci.org/wearefractal/msi-keyboard)
+OS independent* LED Controller for MSI Steelseries laptop keyboards Using Node.js
 
 [![NPM version](https://badge.fury.io/js/msi-keyboard.png)](http://badge.fury.io/js/msi-keyboard)
 
