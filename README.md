@@ -27,6 +27,10 @@ OS independent* LED Controller for MSI Steelseries laptop keyboards Using Node.j
 ![keyboard](https://i.cloudup.com/V7zz0ZdHT8.png)
 
 ## Usage
+ 
+#### if using as a stand alone module:
+
+`npm install`
 
 ###Note: 
 Linux and *nix systems may require sudo to access the hid device interface.
