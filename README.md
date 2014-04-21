@@ -26,6 +26,10 @@ OS independent* LED Controller for MSI Steelseries laptop keyboards Using Node.j
 
 ![keyboard](https://i.cloudup.com/V7zz0ZdHT8.png)
 
+## Install Requirements
+
+Run: `npm install`
+
 ## Usage
  
 #### if using as a stand alone module:
