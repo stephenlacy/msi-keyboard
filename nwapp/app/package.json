@@ -1,0 +1,21 @@
+{
+  "name": "UNMLA",
+  "description": "A tool to assist with the creation of Mutual Legal Assistance Forms",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+	"title": "UNODC Mutual Legal Assistance Request Writer Tool",
+	"width": 800,
+	"height": 600,
+	"toolbar": true,
+	"icon": "img/un_logo.png",
+	"position": "center",
+	"show" : false
+  },
+  "webkit": {
+    "plugin": false
+  },
+  "dependencies": {
+	"officegen": ">=0.2.9"
+  }
+}
