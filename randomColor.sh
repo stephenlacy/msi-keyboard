@@ -9,7 +9,7 @@
 # Full path should be the full path to the script
 
 # Full path for cron job
-COLORDIR="/!!full path!!/msi-keyboard/examples"
+COLORDIR="/home/joshua/Documents/Software/msi-keyboard/examples"
 
 # Get random color file
 COLORFILE=`ls $COLORDIR | sort -R | tail -1`
