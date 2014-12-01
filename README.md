@@ -31,7 +31,7 @@ OS independent* LED Controller for MSI Steelseries laptop keyboards Using Node.j
 Make sure you have the needed usb lib requirements for your OS.
 
 
-Generic Linux: `libusb-dev`
+Generic Linux: `libusb-dev` `libusb-1.0-0-dev`
 #### if using as a stand alone module:
 
 `npm install`
