@@ -210,6 +210,12 @@ keyboard.blink(['left','right'], 750);
 
 You can view more examples in the [example folder.](https://github.com/wearefractal/msi-keyboard/tree/master/examples)
 
+## randomColor.sh cron script
+
+You can use the randomColor.sh cron script to choose a random file from the examples folder, and change the color of your keyboard every few minutes (default is 30 minutes).
+
+Be sure to change the script to match the location of the script on your computer.
+
 ## LICENSE
 
 (MIT License)
