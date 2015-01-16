@@ -7,7 +7,7 @@ OS independent* LED Controller for MSI Steelseries laptop keyboards Using Node.j
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>msi-keyboard</td>
 </tr>
 <tr>
@@ -36,7 +36,7 @@ Generic Linux: `libusb-dev` `libusb-1.0-0-dev`
 
 `npm install`
 
-###Note: 
+###Note:
 Linux and *nix systems may require sudo to access the hid device interface.
 
 *Not tested on all platforms.
@@ -131,7 +131,7 @@ The following intensities are used:
     low
     med
     high
-    
+
 To set it:
 
 ```javascript
