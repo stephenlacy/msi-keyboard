@@ -9,10 +9,18 @@
 # Full path should be the full path to the script
 
 # Full path for cron job
-COLORDIR="/!!full path!!/msi-keyboard/examples"
+COLORDIR="/!!!FULL PATH!!!/msi-keyboard/examples"
+MODESDIR="/!!!FULL PATH!!!/msi-keyboard/exampleModes"
 
-# Get random color file
-COLORFILE=`ls $COLORDIR | sort -R | tail -1`
+# Check of on battery. If yes, shut off keyboard
+# This could also be used to turn on only "low" lights
+if [ $(cat /sys/class/power_supply/ADP1/online) -eq 1 ]; then
+	# Get random color file
+	COLORFILE=`ls $COLORDIR | sort -R | tail -1`
 
-echo "$COLORFILE selected"
-nodejs $COLORDIR/$COLORFILE
+	echo "$COLORFILE selected"
+	node $COLORDIR/$COLORFILE
+else
+	echo "Laptop unplugged... switching off keyboard"
+	node $MODESDIR/off.js
+fi
