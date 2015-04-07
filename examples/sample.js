@@ -1,25 +1,24 @@
 var keyboard = require('../');
 
+
 keyboard.color('left', {
-	color: 'red',
-	intensity: 'med'
+	color: 'blue',
+	intensity: 'high'
 });
 keyboard.color('middle', {
 	color: 'green',
-	intensity: 'med'
+	intensity: 'high'
 });
 keyboard.color('right', {
 	color: 'blue',
-	intensity: 'med',
+	intensity: 'high',
 });
 
-keyboard.mode('breathe');
+
+keyboard.mode('wave');
+//keyboard.mode('normal');
 
 
 
 
-
-keyboard.blink(['left'], 750);
-
-setTimeout(keyboard.stopBlink, 5000);
 
