@@ -68,7 +68,7 @@ keyboard.color('right', {
 // Setting .color() will Not affect the hardware defined colors for modes
 
 // Set Hardware mode to breath
-keyboard.mode('breathe');
+keyboard.mode('breathe', 'green');
 
 
 // Blinking
