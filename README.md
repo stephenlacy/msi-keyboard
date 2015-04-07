@@ -174,7 +174,7 @@ Region objects are defined as such:
     
 Which is equivalent to:
 
-   right: {
+    right: {
       color: 'red',
       intensity: 'high',
       secondary: {
