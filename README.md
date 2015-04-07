@@ -150,14 +150,18 @@ MSI Steelseries keyboards have built modes.
 Breathe and Wave modes support fading between colors, which can be set when calling the keyboard.mode() method.
 
 Passing in only one color argument defaults the secondaryColor to 'off':
+
 `keyboard.mode(String mode, String primaryColor);`
 
 You can also set each region's color individually:
+
 `keyboard.mode(String mode, String leftPrimary, String middlePrimary, String rightPrimary, Integer cyclePeriod);`
+
 `keyboard.mode(String mode, Object left, Object middle, Object right, Integer cyclePeriod);`
 
 Region objects are defined as such:
-    right: {
+
+    `right: {
       primary: {
         color: 'red',
         intensity: 'high'
@@ -166,31 +170,34 @@ Region objects are defined as such:
         color: 'blue',
         intensity: 'high'
       }
-    }
+    }`
     
 Which is equivalent to:
-    right: {
+
+   `right: {
       color: 'red',
       intensity: 'high',
       secondary: {
         color: 'blue',
         intensity: 'high'
       }
-    }
+    }`
 
     
 You can also define just the primary and secondary colors, leaving the intensities to their default (high):
-    right: {
+
+    `right: {
       primary: 'red',
       secondary: 'blue'
-    }
+    }`
     
 If you specify the color and intensity directly in the Region object, you can set just one of the secondary fields and the other will take the default from the primary (secondary color will be red with light intensity):
-    right: {
+
+    `right: {
       color: 'red',
       intensity: 'high',
       secondary: {intensity:'light'}
-    }
+    }`
 
 The cyclePeriod defaults to 2 seconds when not passed in.
 
