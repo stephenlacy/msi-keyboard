@@ -214,7 +214,7 @@ Usage:
 
 ```javascript
 
-keyboard.mode('wave');
+keyboard.mode('breathe', 'green', 'red', 'yellow'); 
 
 ```
 
