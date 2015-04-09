@@ -86,7 +86,7 @@ function LightKbd(region, colorstr) {
 
 
 function Usage(msg) {
-  if (msg) {
+  if (msg.indexOf('-') !== 0) {
     process.stderr.write(msg + '\n');
   }
   process.stderr.write('Usage: msi-kbd [-C colorspec | -l colorspec -m colorspec -r colorspec] [-M mode]\n');
