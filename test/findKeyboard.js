@@ -8,6 +8,7 @@ describe('msi-keyboard', function() {
     	var keyboard = findKeyboard();
       should.exist(keyboard);
       should.exist(keyboard.write);
+      keyboard.close();
       done();
     });
   });

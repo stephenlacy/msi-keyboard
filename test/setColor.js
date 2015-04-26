@@ -10,6 +10,7 @@ describe('msi-keyboard', function() {
     	setColor(keyboard, 'left', 'green', 'high');
     	setColor(keyboard, 'right', 'red', 'high');
     	setColor(keyboard, 'middle', 'blue', 'high');
+      keyboard.close();
       done();
     });
   });
