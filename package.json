@@ -15,7 +15,7 @@
       "should": "*"
    },
    "scripts": {
-      "test": "mocha"
+      "test": "mocha test/main.js test/*.js"
    },
    "engines": {
       "node": ">= 0.4.0"
