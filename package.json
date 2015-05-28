@@ -19,10 +19,5 @@
   "engines": {
     "node": ">= 0.4.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/wearefractal/msi-keyboard/raw/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }
