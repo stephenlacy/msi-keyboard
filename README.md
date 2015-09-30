@@ -32,6 +32,10 @@ Make sure you have the needed usb lib requirements for your OS.
 
 
 Generic Linux: `libusb-dev` `libusb-1.0-0-dev`
+
+#### Use it as command line :
+https://github.com/Kwaadpepper/msi-keyboard-CLI
+
 #### if using as a stand alone module:
 
 `npm install`
