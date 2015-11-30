@@ -1,21 +1,10 @@
 var keyboard = require('../');
 
-keyboard.color('left', {
-	color: 'red',
-	intensity: 'med'
+keyboard.mode('breathe', {
+    left: {color: 'red', intensity: 'med'},
+    middle :{color:'green', intensity:'med'},
+    right: {color:'green', intensity:'med'}
 });
-keyboard.color('middle', {
-	color: 'green',
-	intensity: 'med'
-});
-keyboard.color('right', {
-	color: 'blue',
-	intensity: 'med',
-});
-
-keyboard.mode('breathe');
-
-
 
 
 

@@ -1,3 +1,3 @@
 var keyboard = require('../');
 
-keyboard.mode('wave');
+keyboard.mode('wave', 'blue');
