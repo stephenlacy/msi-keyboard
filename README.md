@@ -175,7 +175,7 @@ Region objects are defined as such:
         intensity: 'high'
       }
     }
-    
+
 Which is equivalent to:
 
     right: {
@@ -187,14 +187,14 @@ Which is equivalent to:
       }
     }
 
-    
+
 You can also define just the primary and secondary colors, leaving the intensities to their default (high):
 
     right: {
       primary: 'red',
       secondary: 'blue'
     }
-    
+
 If you specify the color and intensity directly in the Region object, you can set just one of the secondary fields and the other will take the default from the primary (secondary color will be red with light intensity):
 
     right: {
@@ -218,7 +218,7 @@ Usage:
 
 ```javascript
 
-keyboard.mode('breathe', 'green', 'red', 'yellow'); 
+keyboard.mode('breathe', 'green', 'red', 'yellow');
 
 ```
 
@@ -266,6 +266,18 @@ keyboard.blink(['left','right'], 750);
 ## Examples
 
 You can view more examples in the [example folder.](https://github.com/wearefractal/msi-keyboard/tree/master/examples)
+
+### Confirmed Systems
+
+```sh
+OS: Debain 8
+Kernel: Linux 4.4.0 AMD
+Node: v5 / v6
+libusb-dev: v0.1.12
+
+---
+
+```
 
 ## LICENSE
 
