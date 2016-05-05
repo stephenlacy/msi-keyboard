@@ -1,4 +1,4 @@
-var keyboard = require('../');
+var keyboard = require('../')();
 
 keyboard.color('left', {
 	color: 'red',

@@ -1,4 +1,4 @@
-var keyboard = require('../');
+var keyboard = require('../')();
 
 // Set colors before calling blink()
 keyboard.color('left', {

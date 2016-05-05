@@ -1,3 +1,1 @@
-var findKeyboard = require('./lib/findKeyboard');
-
-module.exports = findKeyboard();
+module.exports = require('./lib/findKeyboard');

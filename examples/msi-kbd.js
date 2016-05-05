@@ -4,7 +4,7 @@
 // Hal Pomeranz (hal@deer-run.com), Deer Run Associates, 2015-04-08
 // This code released under Creative Commons Attribution license (CC BY)
 
-var keyboard = require('msi-keyboard');
+var keyboard = require('msi-keyboard')();
 var argv = require('minimist')(process.argv.slice(2), {
   string: 'clmrM'.split(''),
   unknown: Usage

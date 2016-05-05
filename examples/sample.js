@@ -1,4 +1,4 @@
-var keyboard = require('../');
+var keyboard = require('../')();
 
 keyboard.mode('breathe', {
     left: {color: 'red', intensity: 'med'},

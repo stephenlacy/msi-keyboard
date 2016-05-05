@@ -49,7 +49,7 @@ Platform tests appreciated
 
 ```javascript
 // require the LED module
-var keyboard = require('msi-keyboard');
+var keyboard = require('msi-keyboard')();
 
 // Set left region to high intensity, color red
 keyboard.color('left', {

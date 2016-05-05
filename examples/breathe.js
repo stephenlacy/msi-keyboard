@@ -1,4 +1,4 @@
-var keyboard = require('../');
+var keyboard = require('../')();
 
 keyboard.mode('breathe', 'green', 'red', 'yellow'); //Keyboard will pulse from green, red, and yellow (in the left, middle, and right areas, respectively) high intensity to off (which is the default secondary color).
 

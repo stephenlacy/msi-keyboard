@@ -1,4 +1,4 @@
-var keyboard = require('../');
+var keyboard = require('../')();
 var should = require('should');
 require('mocha');
 
