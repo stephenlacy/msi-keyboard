@@ -277,6 +277,11 @@ libusb-dev: v0.1.12
 
 ---
 
+OS: Arch Linux
+Kernel: 4.5.1-1-ARCH
+Node: v6.0.0
+libusb v0.1.12
+
 ```
 
 ## LICENSE
