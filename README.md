@@ -107,12 +107,12 @@ They will not affect hardware-default modes such as Wave and Breathing.
 
 The following colors are defined:
 
-	off
+	black
 	red
 	orange
 	yellow
 	green
-	sky
+	cyan
 	blue
 	purple
 	white
@@ -153,7 +153,7 @@ MSI Steelseries keyboards have built modes.
 
 Breathe and Wave modes support fading between colors, which can be set when calling the keyboard.mode() method.
 
-Passing in only one color argument defaults the secondaryColor to 'off':
+Passing in only one color argument defaults the secondaryColor to 'black':
 
 `keyboard.mode(String mode, String primaryColor);`
 

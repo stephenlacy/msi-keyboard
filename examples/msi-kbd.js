@@ -11,12 +11,12 @@ var argv = require('minimist')(process.argv.slice(2), {
 });
 
 var colors = [
-  'off',
+  'black',
   'red',
   'orange',
   'yellow',
   'green',
-  'sky',
+  'cyan',
   'blue',
   'purple',
   'white'
@@ -63,8 +63,8 @@ function LightKbd(region, colorstr) {
   var colorargs = colorstr.split(':');
 
   for (i = 0; i < colorargs.length; i++) {
-    if (colorargs[i] === 'black' || colorargs[i] === 'none') {
-      colorargs[i] = 'off';
+    if (colorargs[i] === 'none') {
+      colorargs[i] = 'black';
     }
     if (colors.indexOf(colorargs[i]) > -1) {
       colorSet = colorargs[i];

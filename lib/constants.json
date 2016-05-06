@@ -5,12 +5,12 @@
 		"right": 3
 	},
 	"colors": {
-		"off": 0,
+		"black": 0,
 		"red": 1,
 		"orange": 2,
 		"yellow": 3,
 		"green": 4,
-		"sky": 5,
+		"cyan": 5,
 		"blue": 6,
 		"purple": 7,
 		"white": 8
