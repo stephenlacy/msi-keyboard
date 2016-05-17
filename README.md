@@ -53,7 +53,7 @@ var keyboard = require('msi-keyboard')();
 
 // Set left region to high intensity, color red
 keyboard.color('left', {
-    color: 'red',
+  color: 'red',
 	intensity: 'high'
 });
 
