@@ -54,7 +54,7 @@ var keyboard = require('msi-keyboard')();
 // Set left region to high intensity, color red
 keyboard.color('left', {
   color: 'red',
-	intensity: 'high'
+  intensity: 'high'
 });
 
 // Set middle region to green default high intensity
@@ -63,8 +63,8 @@ keyboard.color('middle', 'green');
 
 // Set right region to blue with light intensity
 keyboard.color('right', {
-	color: 'blue',
-	intensity: 'light',
+  color: 'blue',
+  intensity: 'light',
 });
 
 
@@ -107,15 +107,15 @@ They will not affect hardware-default modes such as Wave and Breathing.
 
 The following colors are defined:
 
-	black
-	red
-	orange
-	yellow
-	green
-	cyan
-	blue
-	purple
-	white
+  black
+  red
+  orange
+  yellow
+  green
+  cyan
+  blue
+  purple
+  white
 
 To set a color use keyboard.colors() There are two ways to set the color to a region:
 ```javascript
@@ -140,8 +140,8 @@ To set it:
 
 ```javascript
 keyboard.color('right', {
-    color: 'blue',
-	intensity: 'med',  // light, low, med, high
+  color: 'blue',
+  intensity: 'med',  // light, low, med, high
 });
 ```
 
