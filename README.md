@@ -290,7 +290,7 @@ libusb v0.1.12
 
 (MIT License)
 
-Copyright (c) 2013 | Steve Lacy slacy.me | Fractal wearefractal.com <contact@wearefractal.com>
+Copyright (c) 2013 | Steve Lacy (http://slacy.me)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
