@@ -32,6 +32,7 @@
 
 Make sure you have the needed usb lib requirements for your OS.
 
+This project now supports full RGB/hex colors.
 
 Generic Linux: `libusb-dev` `libusb-1.0-0-dev`
 
@@ -107,22 +108,13 @@ Colors must be set before using keyboard.blink();
 
 They will not affect hardware-default modes such as Wave and Breathing.
 
-The following colors are defined:
-
-  black
-  red
-  orange
-  yellow
-  green
-  cyan
-  blue
-  purple
-  white
+All colors supported by [Colors.js](https://github.com/Marak/colors.js) are now supported here
 
 To set a color use keyboard.colors() There are two ways to set the color to a region:
 ```javascript
 keyboard.color('middle', 'green');
-keyboard.color('middle', {color:'green', intensity:'high'});
+keyboard.color('middle', {color:'#ffffff', intensity:'high'});
+keyboard.color('middle', {color:'#4654BD', intensity:'high'});
 ```
 
 
@@ -142,7 +134,7 @@ To set it:
 
 ```javascript
 keyboard.color('right', {
-  color: 'blue',
+  color: '#1CA626',
   intensity: 'med',  // light, low, med, high
 });
 ```

@@ -1,7 +1,7 @@
 var keyboard = require('../')();
 
 keyboard.color('left', {
-	color: 'red',
+	color: 'rgba(200, 0, 0)',
 	intensity: 'high'
 });
 keyboard.color('middle', {
@@ -9,6 +9,6 @@ keyboard.color('middle', {
 	intensity: 'high'
 });
 keyboard.color('right', {
-	color: 'blue',
+	color: '#4654BD',
 	intensity: 'high'
 });
