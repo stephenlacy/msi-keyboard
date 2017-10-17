@@ -2,7 +2,11 @@
 	"regions": {
 		"left": 1,
 		"middle": 2,
-		"right": 3
+		"right": 3,
+		"logo": 4,
+		"frontLeft": 5,
+		"frontRight" : 6,
+		"touchpad" : 8
 	},
 	"colors": {
 		"black": 0,
@@ -16,10 +20,10 @@
 		"white": 8
 	},
 	"levels": {
-		"light": 3,
-		"low": 2,
-		"med": 1,
-		"high": 0
+		"light": 0.25,
+		"low": 0.50,
+		"med": 0.75,
+		"high": 1.00
 	},
 	"modes": {
 		"normal": 1,
