@@ -1,7 +1,7 @@
 {
   "name": "msi-keyboard",
   "description": "MSI Keyboard LED Controller",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "http://github.com/stevelacy/msi-keyboard",
   "repository": "git://github.com/stevelacy/msi-keyboard.git",
   "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
