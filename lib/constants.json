@@ -6,7 +6,7 @@
 		"logo": 4,
 		"frontLeft": 5,
 		"frontRight" : 6,
-		"touchpad" : 8
+		"touchpad" : 7
 	},
 	"colors": {
 		"black": 0,
