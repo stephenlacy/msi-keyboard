@@ -8,7 +8,7 @@
   "main": "./index.js",
   "dependencies": {
     "color": "^2.0.0",
-    "node-hid": "^0.5.7"
+    "node-hid": "^0.7.4"
   },
   "devDependencies": {
     "mocha": "*",
