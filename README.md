@@ -43,7 +43,7 @@ https://github.com/Kwaadpepper/msi-keyboard-CLI
 
 `npm install`
 
-###Note:
+### Note:
 Linux and *nix systems may require sudo to access the hid device interface.
 
 *Not tested on all platforms.
